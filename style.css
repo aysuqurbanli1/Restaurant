@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+}
+
+#navbarNav .navbar-nav .nav-item a{
+    color: white;
+}
+
+#navbarNav .navbar-nav .nav-item{
+    margin-right: 30px;
+    padding-top: 5px;
+}
+
+#navbarNav .navbar-nav{
+    padding-left: 290px;
+}
+
+#carouselitem{
+    padding-bottom: 400px;
+    width: 882px;
+    margin-left: 235px;
+}
+
+#about p{
+    text-align: center;
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-item{
+    width: 433px;
+    height: 484px;
+}
+
+.blog-date{
+    color: #E8BE7F;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.blog-item div{
+    margin-top: 368px;
+    margin-left: 15px;
+}
+
+.blog-item h5{
+    color: #E8BE7F;
+}
+
+.blog-about{
+    color: white;
+}
+ 
+.blogs a:hover{
+    text-decoration: none;
+}
+
+.menu-select{
+    /* width: 1580px;
+    margin-left: 135px; */
+    margin: 0 130px;
+}
+
+.menu-select ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-select ul li{
+    list-style: none;
+    color: black;
+}
+
+.menu-select ul a:hover{
+    text-decoration: none;
+}
+
+.menu-item{
+    margin-top: 80px;
+}
+
+
+.menu-item .row{
+    margin-bottom: 80px;
+}
+
+.menu-item .row .col{
+    display: flex;
+}
+
+.menu-item .menu-item-image img{
+    width: 146px;
+    height: 136px;
+}
+
+.menu-item .menu-item-text{
+    padding-left: 20px;
+}
+
+.menu-item .menu-item-text .menu-name{
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-item .menu-item-text .menu-name .menu-price{
+    color: #E0AB81;
+    position: absolute;
+    right: 40px;
+}
+
+.menu-item .menu-item-text .menu-about{
+    margin-top: 20px;
+}
+
+.menu-item .menu-item-text .menu-name h5{
+    font-size: 22px;
+    color: white;
+}
+
+.menu-item .menu-item-text .menu-about h5{
+    font-size: 20px;
+    color: white;
+}
+
+.special-offer .offer-card img{
+    width: 433px;
+    height: 484px;
+}
+
+.special-offer .offer-card .card{
+    border: none;
+}
+
+.special-offer .offer-card .card-title{
+    color: #E8BE7F;
+    text-align: center;
+}
+
+.special-offer .offer-card .card-text{
+    color: white;
+    text-align: center;
+}
+
+::placeholder{
+    color: white;
+}
+
+.team .team-person img{
+    width: 399.78px;
+    height: 493px;
+}
+
+.team .team-person .card-title{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.team .team-person .card-text{
+    text-align: center;
+    font-size: 28px;
+    color: #E0AB81;
+}
+
+.footer-section{
+    margin-top: 120px;
+}
+
+.footer-section  #footer-menu li{
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    font-family: DM Sans;
+    line-height: 60px;
+}
+
+.footer-section  #footer-menu a:hover{
+    text-decoration: none;
+}
+
+.footer-section #footer-about{
+    list-style: none;
+}
+
+.footer-section #footer-link li{
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.footer-section #footer-link a:hover{
+    text-decoration: none;
+}
+
+
+
+
