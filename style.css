@@ -1,0 +1,606 @@
+body{
+    background-color: rgb(0,0,0,0.93);
+}
+
+#navbarsection{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 125px;
+    position: fixed;
+    width: 1847px;
+    z-index: 1000;
+}
+
+#navbarimage a img{
+    width: 166px;
+    height: 63px;
+    margin-right: 28px;
+}
+
+header #navbarNav .navbar-nav .nav-item a{
+    color: white;
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+header #navbarNav .navbar-nav .nav-item{
+    margin-right: 30px;
+    padding-top: 9px;
+}
+
+header #navbarNav .navbar-nav{
+    padding-left: 223px;
+}
+
+#bannersection{
+    height: 1169px;
+    background-image: url(images/Rectangle\ 51\(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bannertext{
+    padding-bottom: 124px;
+    width: 882px;
+    margin-left: 235px;
+}
+
+#bannertitle{
+    font-size: 50px;
+}
+
+#bannerabout{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#bannerbutton{
+    width: 169px;
+    height: 53px;
+    background-color: #E8BE7F;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.21em;
+    margin-top: 98px;
+}
+
+#bannertext p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#aboutsection{
+    display: flex;
+    margin-left: 73px;
+    position: relative;
+    margin-top: 168px;
+}
+
+#aboutimage{
+    width: 983px;
+}
+
+#aboutimage img{
+    width: 881px;
+    height: 844px;
+}
+
+.about p{
+    text-align: center;
+}
+
+#abouttitle{
+    color: #E8BE7F;
+    font-size: 28px;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 18px;
+    margin-bottom: 32px;
+}
+
+#ourstorytitle{
+    font-size: 48px;
+    color: white;
+    font-family: Forum;
+    margin-bottom: 32px;
+}
+
+#abouttext{
+    font-size: 29px;
+    color: white;
+    width: 569px;
+    line-height: 49.62px;
+}
+
+#aboutsectionimg{
+    background-image: url(images/7426\ [Converted]-01\ 1\(1\).png);
+    width: 163px;
+    height: 386px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: -89px;
+}
+
+/* .about{
+    margin-left: 50px;
+} */
+
+#blogsection{
+    margin-top: 112px;
+}
+
+#blogtitle{
+    font-size: 28px;
+    color: #E8BE7F;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 14px;
+}
+
+#blogtext{
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    margin-bottom: 14px;
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .blogs a{
+    width: 550px;
+    height: 600px;
+} */
+
+.blog-item{
+    width: 500px;
+    height: 559px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.blog-date{
+    color: #E8BE7F;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.blog-item div{
+    margin-top: 368px;
+    margin-left: 15px;
+}
+
+.blog-item h5{
+    color: #E8BE7F;
+    font-size: 24px;
+}
+
+.blog-about{
+    color: white;
+    font-size: 28px;
+}
+ 
+.blogs a:hover{
+    text-decoration: none;
+}
+
+#menusection{
+    margin-top: 145px;
+    position: relative;
+}
+
+#menusectionimg1{
+    height: 1122px;
+    width: 793px;
+    background-image: url(images/image\ 7.png);
+    position: absolute;
+}
+
+#menusectionimg2{
+    height: 1047px;
+    width: 721px;
+    background-image: url(images/image\ 8.png);
+    position: absolute;
+    right: 0;
+}
+
+#menutitle{
+    font-size: 28px;
+    color: #E8BE7F;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 28px;
+}
+
+#menutext{
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    font-family: Forum;
+    margin-bottom: 96px;
+}
+
+.menu-select{
+    /* width: 1580px;
+    margin-left: 135px; */
+    margin: 0 130px;
+}
+
+.menu-select ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 27px 0;
+}
+
+.menu-select ul li{
+    list-style: none;
+    font-size: 28px;
+}
+
+.menu-select ul a:hover{
+    text-decoration: none;
+}
+
+#menuborder{
+    border-top: 1px solid #565555;
+    border-bottom: 1px solid #565555;
+}
+
+.menu-item{
+    margin-top: 138px;
+}
+
+
+.menu-item .row{
+    margin-bottom: 80px;
+}
+
+.menu-item .row .col{
+    display: flex;
+}
+
+.menu-item .menu-item-image img{
+    width: 146px;
+    height: 136px;
+}
+
+.menu-item .menu-item-text{
+    padding-left: 20px;
+}
+
+.menu-item .menu-item-text .menu-name{
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-item .menu-item-text .menu-name .menu-price{
+    color: #E0AB81;
+    position: absolute;
+    right: 40px;
+}
+
+.menu-item .menu-item-text .menu-about{
+    margin-top: 20px;
+}
+
+.menu-item .menu-item-text .menu-name h5{
+    font-size: 22px;
+    color: white;
+}
+
+.menu-item .menu-item-text .menu-about h5{
+    font-size: 20px;
+    color: white;
+}
+
+#menuaddtext{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+#menuaddtext span{
+    color: #E8BE7F;
+}
+
+#menuimage{
+    background-image: url(images/7426\ [Converted]-01\ 2.png);
+    width: 435px;
+    height: 386px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1026px;
+}
+
+.special-offer{
+    margin-top: 145px;
+    margin-bottom: 318px;
+}
+
+.special-offer .offer-card{
+    width: 526px;
+    margin-top: 50px;
+}
+
+.special-offer .offer-card img{
+    width: 526px;
+    height: 593px;
+    margin-bottom: 23px;
+}
+
+
+.special-offer .offer-card .card-title{
+    color: #E8BE7F;
+    text-align: center;
+    font-size: 24px;
+}
+
+.special-offer .offer-card .card-text{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+#special-offertitle{
+    font-size: 28px;
+    color: #E8BE7F;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#special-offertext{
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    font-family: Forum;
+    margin-bottom: 56px;
+}
+
+#special-offersection{
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagesection{
+    height: 915px;
+    background-image: url(images/Rectangle\ 60.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagesectiontext{
+    color: white;
+    text-align: center;
+    padding-top: 324px;
+    font-size: 52px;
+    margin: 0 237px;
+}
+
+#reservationsection{
+    position: relative;
+}
+
+#onlinereservation{
+    background-color: #0F1011;
+    height: 1002px;
+    position: absolute;
+    top: -207px;
+    left: 334px;
+    border:1.27px solid #E0AB81;
+}
+
+#reservation{
+    padding-top: 140px;
+}
+
+#reservation h5{
+    font-size: 68.4px;
+    text-align: center;
+    color: white;
+    font-family: Forum;
+    padding-bottom: 80px;
+}
+
+#reservationform{
+    width: 100%;
+    margin-left: 50px;
+}
+
+#reservationrow1{
+    margin-bottom: 60px;
+}
+
+.reservationinput{
+    width: 80%;
+    height: 50px;
+    background-color: #1A1B1C;
+    color: white;
+    border:1.27px solid #E0AB81;
+}
+
+#reservationrow2{
+    width: 99%;
+    margin-bottom: 60px;
+}
+
+#reservationformgroup{
+    margin-bottom: 30px;
+}
+
+#reservationformgroup textarea{
+    width: 90%;
+    background-color: #1A1B1C;
+    color: white;
+    border:1.27px solid #E0AB81;
+}
+
+#reservationbutton{
+    width: 90%;
+    height: 60px;
+    background-color: #E0AB81;
+    color: black;
+}
+
+#reservationimage{
+    padding-top: 73px;
+    margin-left: 336px;
+}
+
+::placeholder{
+    color: white;
+}
+
+#teamsection{
+    margin-top: 1180px;
+    position: relative;
+    margin-bottom: 136px;
+}
+
+#teamsectionimg{
+    background-image: url(images/image\ 9.png);
+    width: 271.96px;
+    height: 805px;
+    position: absolute;
+}
+
+#teamsectiontitle{
+    font-size: 28px;
+    color: #E8BE7F;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#teamsectiontext{
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    font-family: Forum;
+    margin-bottom: 50px;
+}
+
+#experiencedteam{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 197px;
+}
+
+.team{
+    margin-top: 50px;
+}
+
+.team .team-person{
+    width: 399.78px;
+}
+
+.team .team-person img{
+    width: 457.78px;
+    height: 532px;
+}
+
+.team .team-person .card-title{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.team .team-person .card-text{
+    text-align: center;
+    font-size: 28px;
+    color: #E0AB81;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 192px;
+}
+
+#footerimg{
+    margin-bottom: 10px;
+}
+
+#footer-about li p{
+    text-align: center;
+}
+
+#footertext1{
+    color: white;
+    margin-bottom: 0;
+}
+
+#footertext2{
+    color: #E0AB81;
+}
+
+#footertext3{
+    margin-bottom: 0;
+    color: #E0AB81;
+}
+
+#footertext4{
+    margin-bottom: 0;
+    color: #A7A7A7;
+}
+
+#footertext5{
+    color: #A7A7A7;
+}
+
+.footer-section  #footer-menu li{
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    font-family: DM Sans;
+    line-height: 60px;
+}
+
+.footer-section  #footer-menu a:hover{
+    text-decoration: none;
+}
+
+.footer-section #footer-about{
+    list-style: none;
+}
+
+.footer-section #footer-link li{
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.footer-section #footer-link a:hover{
+    text-decoration: none;
+}
+
+#footersectionimage{
+    width: 435px;
+    height: 143px;
+    background-image: url(images/7426\ [Converted]-01\ 1\(2\).png);
+    margin-left: 38%;
+}
+
+@media  screen and (max-width:1024px){
+    #bannersection{
+        height: 648px;
+    }
+
+    #bannertext{
+        padding-bottom: 432px;
+        width: 588px;
+        margin-left: 68px;
+    }
+
+    #bannertitle{
+        font-size: 43px;
+    }
+
+    #bannerabout{
+        font-size: 27px;
+    }
+}
